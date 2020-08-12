@@ -3,6 +3,7 @@ import './index.css';
 import linkedinLogo from '../../icons/linkedin.png';
 import githubLogo from '../../icons/github.png';
 import facebookLogo from '../../icons/facebook.png';
+import Particles from '..//ParticlesComponent';
 
 class Header extends React.Component {
     render() {
@@ -11,12 +12,15 @@ class Header extends React.Component {
                 className="ui-container"
                 id="header"
                 style={{
-                    width: '950px',
+                    width: '1263.5px',
                     margin: '0 auto',
                     height: '500px',
                     marginBlockStart: '70px',
                 }}
             >
+                <div id="particles-js">
+                    <Particles />
+                </div>
                 <header className="header">
                     <div className="title text-center">
                         <h1 className="name">MOTI BARSHAZKY</h1>

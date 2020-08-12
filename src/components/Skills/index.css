@@ -44,6 +44,7 @@ hr.skills-hr {
     border-radius: 100%;
     background-color: white;
     margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .skill-icon {
     height: 60%;
@@ -51,7 +52,7 @@ hr.skills-hr {
     background-position: no-repeat center center/cover;
 }
 .skill-icon-warp :not(img) {
-    color: black;
+    color: rgb(121, 120, 120);
     opacity: 0;
     transition: 1.5s;
     font-size: 27px;

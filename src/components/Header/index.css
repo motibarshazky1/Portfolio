@@ -16,7 +16,7 @@
 .frameworks-header {
     text-align: center;
     font-size: 17px;
-    color: rgb(100, 100, 100);
+    color: rgb(78, 78, 78);
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 25px;
     margin-left: 55px;
@@ -25,11 +25,15 @@ hr.header-hr {
     border-top: 1px dashed rgba(97, 90, 90, 0.993);
     width: 60vw;
     position: relative;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 .header {
-    left: 50%;
-    margin-top: 145px;
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    max-width: 90%;
+    font-family: 'Open Sans', sans-serif;
 }
 .ui-container {
     position: relative;
@@ -40,25 +44,26 @@ hr.header-hr {
 
 .linkedin-image {
     cursor: pointer;
-    max-height: 41px;
-    max-width: 41px;
-    width: 41px;
-    height: 41px;
+    width: 43px;
+    height: 43px;
     margin-left: 65px;
 }
 .github-image {
     cursor: pointer;
-    max-height: 45px;
-    max-width: 45px;
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
     margin-left: 24px;
 }
 .facebook-image {
     cursor: pointer;
-    max-height: 42px;
-    max-width: 81px;
-    width: 81px;
-    height: 42px;
-    margin-left: 3px;
+    width: 43px;
+    height: 43px;
+    margin-left: 23px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 102%;
+    background: rgb(148, 148, 148);
 }

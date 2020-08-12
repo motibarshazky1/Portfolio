@@ -18,7 +18,7 @@ class Skills extends React.Component {
             [javaIcon, 'Java'],
             [htmlIcon, 'HTML'],
             [cssIcon, 'CSS'],
-            [sqlIcon, 'MySQL'],
+            [sqlIcon, 'SQL'],
             [cIcon, 'C'],
             [cppIcon, 'C++'],
         ],
