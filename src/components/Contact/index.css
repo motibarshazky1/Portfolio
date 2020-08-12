@@ -1,0 +1,103 @@
+.contact-title h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+    color: rgb(8, 8, 102);
+    text-align: center;
+    margin-bottom: 9px;
+    margin-left: 400px;
+    margin-right: 70px;
+    margin-top: 14px;
+}
+.GrContact {
+    width: 45px;
+    height: 45px;
+    margin-top: 31px;
+}
+.contact-title {
+    display: flex;
+    justify-content: space-beteen;
+}
+.icons-details {
+    display: flex;
+    justify-content: space-beteen;
+}
+
+#contact {
+    height: 505px;
+    background-color: #eee;
+}
+hr.contact-hr {
+    border-top: 1.5px dashed rgba(163, 163, 173, 0.993);
+    margin-left: 180px;
+    width: 900px;
+    margin-bottom: 50px;
+}
+
+.download {
+    margin-top: 200px;
+}
+.mapIcon {
+    width: 50px;
+    height: 50px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.mailIcon {
+    width: 50px;
+    height: 50px;
+    margin-left: 296px;
+    cursor: pointer;
+}
+.smartphoneIcon {
+    width: 50px;
+    height: 50px;
+    margin-left: 310px;
+    cursor: pointer;
+}
+.downloadIcon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.location-details {
+    margin-left: 175px;
+    color: rgb(8, 8, 102);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+.mail-details {
+    margin-left: 117px;
+    color: rgb(8, 8, 102);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+.phone-details {
+    margin-left: 147px;
+    color: rgb(8, 8, 102);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.downloadLink {
+    color: rgb(73, 73, 73);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(8, 8, 102);
+    margin-left: -5px;
+    font-size: 18px;
+}
+#iconsList .mailIcon :hover {
+    opacity: 0.6;
+}
+#iconsList .mapIcon :hover {
+    opacity: 0.6;
+}
+#iconsList .smartphoneIcon :hover {
+    opacity: 0.6;
+}
+.downloadIcon :hover {
+    opacity: 0.6;
+}

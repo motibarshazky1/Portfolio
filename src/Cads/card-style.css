@@ -1,0 +1,47 @@
+.card {
+    width: 21rem;
+}
+.card :hover {
+    box-shadow: 5px 10px 20px 1px rgba(24, 27, 58, 0.353) !important;
+}
+.card-body {
+    padding: 3erm 0 !important;
+}
+.card-title {
+    font-family: 'Lemonada', cursive;
+}
+.card-text {
+    font-size: 1.1rem;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(88, 80, 80);
+}
+
+.container-fluid .row {
+    padding-top: 3rem;
+}
+
+.card-imp-top {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.card-imp-top img {
+    transition: transform 1.1s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.card-imp-top:hover img {
+    transform: scale(1.6);
+}
+
+.used-platforms {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(27, 18, 59);
+    visibility: hidden;
+}
+.card :hover .used-platforms {
+    visibility: visible;
+    opacity: 0.46;
+    transition: 1.5s; /* slow fading */
+}

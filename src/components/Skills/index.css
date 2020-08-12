@@ -1,0 +1,67 @@
+.skills-title h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+    color: rgb(8, 8, 102);
+    text-align: center;
+    margin-bottom: 70px;
+    margin-left: 480px;
+    margin-right: 60px;
+}
+#skills {
+    margin-bottom: 200px;
+}
+.FaRegKeyboard {
+    width: 55px;
+    height: 55px;
+    margin-left: 5px;
+    margin-top: 12.5px;
+}
+.skills-title {
+    display: flex;
+    justify-content: space-beteen;
+}
+
+hr.skills-hr {
+    border-top: 1.4px dashed rgba(163, 163, 173, 0.993);
+    margin-left: 180px;
+    margin-top: -51px;
+    margin-bottom: 30px;
+    width: 901px;
+}
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 70px;
+}
+.skill-icon-warp {
+    height: 170px;
+    width: 200px;
+    margin: 30px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 30px;
+}
+.skill-icon {
+    height: 60%;
+    width: 60%;
+    background-position: no-repeat center center/cover;
+}
+.skill-icon-warp :not(img) {
+    color: black;
+    opacity: 0;
+    transition: 1.5s;
+    font-size: 27px;
+    margin-left: 25px;
+}
+.skill-icon-warp:hover :not(img) {
+    opacity: 1;
+}
+@media (max-width: 500px) {
+    .skills-title {
+        display: inline;
+    }
+}

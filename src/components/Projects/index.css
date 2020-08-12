@@ -1,0 +1,28 @@
+.projects-title h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+    color: rgb(8, 8, 102);
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 470px;
+}
+#projects {
+    margin-bottom: 100px;
+    width: 98%;
+}
+.TiStarOutline {
+    width: 55px;
+    height: 55px;
+    margin-left: 40px;
+    margin-top: 11px;
+}
+hr.projects-hr {
+    border-top: 1.5px dashed rgba(163, 163, 173, 0.993);
+    margin-left: 180px;
+    width: 900px;
+    margin-bottom: -10px;
+}
+.projects-title {
+    display: flex;
+    justify-content: space-beteen;
+}

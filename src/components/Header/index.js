@@ -1,0 +1,52 @@
+import React from 'react';
+import './index.css';
+import linkedinLogo from '../../icons/linkedin.png';
+import githubLogo from '../../icons/github.png';
+import facebookLogo from '../../icons/facebook.png';
+
+class Header extends React.Component {
+    render() {
+        return (
+            <div
+                className="ui-container"
+                id="header"
+                style={{
+                    width: '950px',
+                    margin: '0 auto',
+                    height: '500px',
+                    marginBlockStart: '70px',
+                }}
+            >
+                <header className="header">
+                    <div className="title text-center">
+                        <h1 className="name">MOTI BARSHAZKY</h1>
+                        <hr size="2" className="header-hr" />
+                        <div className="subtitle">FRONT-END DEVELOPER</div>
+                        <br />
+                        <div className="frameworks-header">
+                            JavaScript, ReactJS, Redux, Java, HTML, CSS, C, C++, SQL
+                        </div>
+                    </div>
+                    <ul class="list-unstyled list-inline text-center">
+                        <li className="list-inline-item">
+                            <a href="https://www.linkedin.com/in/moti-barshazky/">
+                                <img className="linkedin-image" src={linkedinLogo} alt="" />
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="https://github.com/motibarshazky1">
+                                <img className="github-image" src={githubLogo} alt="" />
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="https://www.facebook.com/Moti.Barshazky/">
+                                <img className="facebook-image" src={facebookLogo} alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </header>
+            </div>
+        );
+    }
+}
+export default Header;

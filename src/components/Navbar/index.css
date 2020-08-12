@@ -1,0 +1,12 @@
+.nav-link {
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 4px;
+}
+.navbar-brand {
+    cursor: pointer;
+    font-family: 'Warnes', cursive;
+}
+.nav-item {
+    margin-top: 3px;
+}
