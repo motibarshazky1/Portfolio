@@ -1,5 +1,5 @@
 .name {
-    font-size: 90px;
+    font-size: 75px;
     color: rgb(94, 95, 158);
     font-family: 'Kalam', cursive;
     margin-left: 25px;
@@ -7,11 +7,13 @@
 
 .subtitle {
     text-align: center;
-    font-size: 63px;
+    font-size: 55px;
     color: rgb(0, 0, 0);
     font-family: 'Saira Condensed', sans-serif;
     margin-bottom: -9px;
-    margin-left: 40px;
+    width: 75%;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
 }
 .frameworks-header {
     text-align: center;
@@ -23,9 +25,8 @@
 }
 hr.header-hr {
     border-top: 1px dashed rgba(97, 90, 90, 0.993);
-    width: 60vw;
+    width: 100%;
     position: relative;
-    margin-left: 20px;
 }
 .header {
     position: absolute;

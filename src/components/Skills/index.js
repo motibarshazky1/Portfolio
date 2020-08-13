@@ -39,8 +39,10 @@ class Skills extends React.Component {
         return (
             <div className="ui-container" id={this.props.id}>
                 <div className="skills-title text-center">
-                    <h1>SKILLS</h1>
-                    <FaRegKeyboard className="FaRegKeyboard" />
+                    <h1>
+                        SKILLS
+                        <FaRegKeyboard className="FaRegKeyboard" />
+                    </h1>
                 </div>
                 <hr size="2" className="skills-hr" />
                 <div className="skill-list">{this.renderIcons()}</div>

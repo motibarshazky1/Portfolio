@@ -4,29 +4,35 @@
     color: rgb(8, 8, 102);
     text-align: center;
     margin-bottom: 70px;
-    margin-left: 480px;
-    margin-right: 60px;
+    width: 50%;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
 }
 #skills {
-    margin-bottom: 200px;
+    margin-bottom: 40px;
 }
 .FaRegKeyboard {
     width: 55px;
     height: 55px;
-    margin-left: 5px;
-    margin-top: 12.5px;
+    margin-left: 50px;
+    margin-top: -10px;
 }
 .skills-title {
     display: flex;
     justify-content: space-beteen;
+    width: 50%;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
 }
 
 hr.skills-hr {
     border-top: 1.4px dashed rgba(163, 163, 173, 0.993);
-    margin-left: 180px;
     margin-top: -51px;
     margin-bottom: 30px;
     width: 901px;
+    width: 50%;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
 }
 .skill-list {
     display: flex;
