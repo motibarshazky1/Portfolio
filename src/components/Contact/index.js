@@ -10,8 +10,10 @@ class Contact extends React.Component {
         return (
             <div className="ui-container" id={this.props.id}>
                 <div className="contact-title">
-                    <h1>CONTACT ME</h1>
-                    <GrContact className="GrContact" />
+                    <h1>
+                        CONTACT ME
+                        <GrContact className="GrContact" />
+                    </h1>
                 </div>
                 <hr size="2" className="contact-hr" />
                 <div className="icons">
@@ -27,27 +29,28 @@ class Contact extends React.Component {
                         </li>
                     </ul>
                 </div>
-                <div className="icons-details text-center" style={{ marginBottom: '-110px' }}>
-                    <h4 className="location-details" style={{ display: 'inline' }}>
-                        Ramat-Gan, Israel
-                    </h4>
-                    <h4 className="mail-details" style={{ display: 'inline' }}>
-                        Motibarshazky1@gmail.com
-                    </h4>
-                    <h4 className="phone-details" style={{ display: 'inline' }}>
-                        052-788-9993
-                    </h4>
+                <div className="row" style={{ marginBottom: '-110px' }} id="detailsList">
+                    <div className="col-md-3">
+                        <h4 className="location-details" style={{ display: 'inline' }}>
+                            Ramat-Gan, Israel
+                        </h4>
+                    </div>
+                    <div className="col-md-4">
+                        <h4 className="mail-details" style={{ display: 'inline' }}>
+                            Motibarshazky1@gmail.com
+                        </h4>
+                    </div>
+                    <div className="col-md-3">
+                        <h4 className="phone-details" style={{ display: 'inline' }}>
+                            052-788-9993
+                        </h4>
+                    </div>
                 </div>
-                <div className="download">
-                    <ul class="list-unstyled list-inline text-center">
-                        <li className="list-inline-item">
-                            <FaFileDownload className="downloadIcon" />
-                        </li>
-                    </ul>
-                </div>
-                <div className="text-center">
+
+                <div className="text-center" style={{ marginTop: '255px' }}>
                     <a className="downloadLink" href="https://docdro.id/Nrd5yDC" download>
-                        Download CV
+                        <FaFileDownload className="downloadIcon" />
+                        <button class="btn">Download CV</button>
                     </a>
                 </div>
             </div>
