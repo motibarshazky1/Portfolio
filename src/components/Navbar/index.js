@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import './index.css';
@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                     className="navbar-brand"
                     activeClass="active"
                     onClick={this.onScrollTop}
-                    style={{ color: 'rgb(0, 123, 255)', marginLeft: '100px', fontSize: '30px' }}
+                    style={{ color: 'rgb(120, 121, 191)', marginLeft: '100px', fontSize: '30px' }}
                 >
                     MB
                 </Link>
