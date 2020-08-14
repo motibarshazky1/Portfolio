@@ -17,7 +17,7 @@ class Contact extends React.Component {
                 </div>
                 <hr size="2" className="contact-hr" />
                 <div className="icons">
-                    <ul class="list-unstyled list-inline text-center" id="iconsList">
+                    <ul className="list-unstyled list-inline text-center" id="iconsList">
                         <li className="list-inline-item">
                             <FaMapMarkerAlt className="mapIcon" />
                         </li>
@@ -50,7 +50,7 @@ class Contact extends React.Component {
                 <div className="text-center" style={{ marginTop: '255px' }}>
                     <a className="downloadLink" href="https://docdro.id/Nrd5yDC" download>
                         <FaFileDownload className="downloadIcon" />
-                        <button class="btn">Download CV</button>
+                        <button className="btn">Download CV</button>
                     </a>
                 </div>
             </div>

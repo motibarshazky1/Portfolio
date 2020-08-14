@@ -16,6 +16,7 @@ class Navbar extends React.Component {
                 style={{ width: '100%' }}
             >
                 <Link
+                    to="navbar"
                     className="navbar-brand"
                     activeClass="active"
                     onClick={this.onScrollTop}

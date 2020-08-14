@@ -31,7 +31,7 @@ class Header extends React.Component {
                             JavaScript, ReactJS, Redux, Java, HTML, CSS, C, C++, SQL
                         </div>
                     </div>
-                    <ul class="list-unstyled list-inline text-center">
+                    <ul className="list-unstyled list-inline text-center">
                         <li className="list-inline-item">
                             <a href="https://www.linkedin.com/in/moti-barshazky/">
                                 <img className="linkedin-image" src={linkedinLogo} alt="" />

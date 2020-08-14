@@ -10,8 +10,8 @@ class App extends React.Component {
     render() {
         return (
             <div className="ui-container">
-                <Navbar />
-                <Header />
+                <Navbar title="navbar" id="about" />
+                <Header title="header" id="header" />
                 <About title="about" id="about" />
                 <Skills title="skills" id="skills" />
                 <Projects title="projects" id="projects" />
