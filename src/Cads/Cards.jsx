@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Card from './CardUI';
 import image1 from '../ProjectsPhotos/animals.jpg';
 import image2 from '../ProjectsPhotos/youtube.jpg';
