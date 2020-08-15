@@ -2,31 +2,27 @@
     font-size: 75px;
     color: rgb(5, 224, 224);
     font-family: 'Kalam', cursive;
-    margin-left: 25px;
+    justify-content: center;
 }
 
 .subtitle {
-    text-align: center;
+    justify-content: center;
     font-size: 55px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 251, 0);
     font-family: 'Saira Condensed', sans-serif;
     margin-bottom: -9px;
-    width: 75%;
-    margin-left: 15% !important;
-    margin-right: 15% !important;
 }
 .frameworks-header {
-    text-align: center;
     font-size: 17px;
     color: rgb(78, 78, 78);
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 25px;
-    margin-left: 55px;
+    justify-content: center;
 }
 hr.header-hr {
     border-top: 1px dashed rgba(97, 90, 90, 0.993);
-    width: 100%;
-    position: relative;
+    width: 105%;
+    margin-left: -15px;
 }
 .header {
     position: absolute;
@@ -47,31 +43,37 @@ hr.header-hr {
     cursor: pointer;
     width: 43px;
     height: 43px;
-    margin-left: 65px;
+    margin-left: 11px;
 }
 .github-image {
     cursor: pointer;
     width: 44px;
     height: 44px;
-    margin-left: 24px;
+    margin-left: 18px;
 }
 .facebook-image {
     cursor: pointer;
     width: 43px;
     height: 43px;
-    margin-left: 23px;
-    -webkit-transition: -webkit-transform 0.8s ease-in-out;
-    transition: transform 0.8s ease-in-out;
+    margin-left: 18px;
 }
 .list-inline-item img {
-    -webkit-transition: -webkit-transform 0.8s ease-in-out;
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
-.list-inline-item img:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-    background-color: aqua;
+.list-inline-item .facebook-image:hover {
+    background-color: rgb(47, 0, 255);
     border-radius: 100%;
+    transform: scale(1.25);
+}
+.list-inline-item .github-image:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    transform: scale(1.25);
+}
+.list-inline-item .linkedin-image:hover {
+    background-color: rgb(47, 0, 255);
+    border-radius: 100%;
+    transform: scale(1.25);
 }
 #particles-js {
     position: absolute;

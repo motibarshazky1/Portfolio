@@ -1,7 +1,7 @@
 #about {
     display: flex;
     justify-content: center;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
 }
 
 .left {
@@ -63,7 +63,6 @@ hr.about-hr {
     justify-content: space-around;
 }
 .right .my-details .detail {
-    font-weight: 500;
     padding: 5px;
     display: inline-block;
     font-family: 'Josefin Sans', sans-serif;

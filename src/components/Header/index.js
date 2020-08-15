@@ -12,7 +12,6 @@ class Header extends React.Component {
                 className="ui-container"
                 id="header"
                 style={{
-                    width: '1263.5px',
                     margin: '0 auto',
                     height: '500px',
                     marginBlockStart: '70px',
@@ -32,20 +31,29 @@ class Header extends React.Component {
                         </div>
                     </div>
                     <ul className="list-unstyled list-inline text-center">
-                        <li className="list-inline-item">
-                            <a href="https://www.linkedin.com/in/moti-barshazky/">
-                                <img className="linkedin-image" src={linkedinLogo} alt="" />
-                            </a>
+                        <li
+                            className="list-inline-item"
+                            onClick={() => {
+                                window.open('https://www.linkedin.com/in/moti-barshazky/');
+                            }}
+                        >
+                            <img className="linkedin-image" src={linkedinLogo} alt="" />
                         </li>
-                        <li className="list-inline-item">
-                            <a href="https://github.com/motibarshazky1">
-                                <img className="github-image" src={githubLogo} alt="" />
-                            </a>
+                        <li
+                            className="list-inline-item"
+                            onClick={() => {
+                                window.open('https://github.com/motibarshazky1');
+                            }}
+                        >
+                            <img className="github-image" src={githubLogo} alt="" />
                         </li>
-                        <li className="list-inline-item">
-                            <a href="https://www.facebook.com/Moti.Barshazky/">
-                                <img className="facebook-image" src={facebookLogo} alt="" />
-                            </a>
+                        <li
+                            className="list-inline-item"
+                            onClick={() => {
+                                window.open('https://www.facebook.com/Moti.Barshazky/');
+                            }}
+                        >
+                            <img className="facebook-image" src={facebookLogo} alt="" />
                         </li>
                     </ul>
                 </header>
