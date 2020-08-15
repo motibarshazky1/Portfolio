@@ -9,7 +9,10 @@
     margin-right: 25% !important;
 }
 #skills {
-    margin-bottom: 40px;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
 }
 .FaRegKeyboard {
     width: 55px;
@@ -26,7 +29,7 @@
 }
 
 hr.skills-hr {
-    border-top: 1.4px dashed rgba(163, 163, 173, 0.993);
+    border-top: 2.4px dashed rgba(163, 163, 173, 0.993);
     margin-top: -51px;
     margin-bottom: 30px;
     width: 901px;
@@ -39,30 +42,30 @@ hr.skills-hr {
     flex-wrap: wrap;
     margin-top: 20px;
     justify-content: center;
-    margin-left: 70px;
 }
 .skill-icon-warp {
-    height: 170px;
-    width: 200px;
-    margin: 30px;
+    height: 140px;
+    width: 100px;
+    margin: 20px;
+    width: 17%;
     position: relative;
     cursor: pointer;
-    border-radius: 100%;
-    background-color: white;
-    margin-left: 30px;
-    font-family: 'Montserrat', sans-serif;
 }
 .skill-icon {
-    height: 60%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
+    max-width: 50%;
+    max-height: 100%;
     background-position: no-repeat center center/cover;
 }
 .skill-icon-warp :not(img) {
-    color: rgb(121, 120, 120);
+    color: var(--primary-color);
     opacity: 0;
     transition: 1.5s;
     font-size: 27px;
-    margin-left: 25px;
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
+    margin-top: 5px;
 }
 .skill-icon-warp:hover :not(img) {
     opacity: 1;

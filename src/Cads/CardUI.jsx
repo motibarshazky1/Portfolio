@@ -7,11 +7,11 @@ const Card = (props) => {
                 <img src={props.imgsrc} alt="projects" className="card-img-top" />
             </div>
             <div className="card-body text-dark">
-                <h4 className="card-title" style={{ fontSize: '19px' }}>
+                <h4 className="card-title" style={{ fontSize: '18px' }}>
                     {props.title}
                 </h4>
                 <p className="card-text text-secondary">{props.description}</p>
-                <a href={props.href} className="btn btn-outline-success">
+                <a href={props.href} className="btn btn-outline-success" id="aGithub">
                     View on GitHub
                 </a>
                 <span className="used-platforms" style={{ marginLeft: '20px' }}>

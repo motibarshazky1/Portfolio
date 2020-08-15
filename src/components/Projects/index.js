@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import Card from '../../Cads/Cards';
 import { TiStarOutline } from 'react-icons/ti';
+
 class Projects extends React.Component {
     render() {
         return (

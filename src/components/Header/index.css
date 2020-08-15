@@ -1,6 +1,6 @@
 .name {
     font-size: 75px;
-    color: rgb(94, 95, 158);
+    color: rgb(5, 224, 224);
     font-family: 'Kalam', cursive;
     margin-left: 25px;
 }
@@ -60,8 +60,19 @@ hr.header-hr {
     width: 43px;
     height: 43px;
     margin-left: 23px;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
 }
-
+.list-inline-item img {
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+}
+.list-inline-item img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background-color: aqua;
+    border-radius: 100%;
+}
 #particles-js {
     position: absolute;
     width: 100%;

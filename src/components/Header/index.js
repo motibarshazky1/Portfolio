@@ -3,7 +3,7 @@ import './index.css';
 import linkedinLogo from '../../icons/linkedin.png';
 import githubLogo from '../../icons/github.png';
 import facebookLogo from '../../icons/facebook.png';
-import Particles from '..//ParticlesComponent';
+import Particles from '../ParticlesComponent';
 
 class Header extends React.Component {
     render() {

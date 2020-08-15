@@ -9,8 +9,9 @@
     margin-right: 25% !important;
 }
 #projects {
+    margin: auto;
     margin-bottom: 100px;
-    width: 98%;
+    width: 97%;
 }
 .TiStarOutline {
     width: 55px;
@@ -19,7 +20,7 @@
     margin-top: -10px;
 }
 hr.projects-hr {
-    border-top: 1.5px dashed rgba(163, 163, 173, 0.993);
+    border-top: 2.4px dashed rgba(163, 163, 173, 0.993);
     width: 50%;
     margin-left: 25% !important;
     margin-right: 25% !important;

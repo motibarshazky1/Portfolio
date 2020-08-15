@@ -27,10 +27,14 @@
 }
 
 #contact {
+    margin: auto;
     height: 505px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
 }
 hr.contact-hr {
-    border-top: 1.5px dashed rgba(163, 163, 173, 0.993);
+    border-top: 2.4px dashed rgba(163, 163, 173, 0.993);
     width: 900px;
     margin-bottom: 50px;
     width: 50%;
@@ -39,64 +43,61 @@ hr.contact-hr {
 }
 
 .btn {
-    font-family: 'Carter One', cursive;
-    margin-top: 10px;
+    font-family: 'Itim', cursive;
+    font-size: 26px;
+    margin-top: 12px;
+    color: rgb(63, 133, 190);
 }
+
 .mapIcon {
     width: 50px;
     height: 50px;
+    margin-left: -108px;
+    margin-right: 40px;
+    margin-top: -5px;
     cursor: pointer;
 }
 .mailIcon {
     width: 50px;
     height: 50px;
+    margin-right: 40px;
+    margin-top: -5px;
     cursor: pointer;
 }
 .smartphoneIcon {
     width: 50px;
     height: 50px;
+    margin-left: -152px;
+    margin-right: 40px;
+    margin-top: -5px;
     cursor: pointer;
 }
-.downloadIcon {
+.pdfIcon {
     width: 50px;
     height: 50px;
     cursor: pointer;
 }
 
 .location-details {
-    color: rgb(8, 8, 102);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 21px;
+    color: rgb(255, 0, 0);
 }
-.box-1 {
-    flex: 1;
-    order: 1;
-}
-.box-2 {
-    flex: 2;
-    order: 3;
-}
-.box-3 {
-    flex: 1;
-    order: 3;
-}
+
 .mail-details {
-    color: rgb(8, 8, 102);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 21px;
+    color: rgb(255, 0, 0);
 }
 .phone-details {
-    color: rgb(8, 8, 102);
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: bold;
+    color: rgb(255, 0, 0);
 }
-.downloadLink {
-    color: rgb(73, 73, 73);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+.pdfLink {
     color: rgb(8, 8, 102);
     margin-left: -5px;
     font-size: 18px;
@@ -110,13 +111,13 @@ hr.contact-hr {
 #iconsList .smartphoneIcon :hover {
     opacity: 0.6;
 }
-.downloadIcon :hover {
+.pdfIcon :hover {
     opacity: 0.6;
 }
-
-#detailsList {
-    display: flex;
-    width: 78%;
-    margin-left: 22% !important;
-    margin-right: 22% !important;
+.icons {
+    display: inline-block;
+    width: 40%;
+    justify-items: center;
+    align-items: center;
+    position: center;
 }

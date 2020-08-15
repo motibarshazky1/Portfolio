@@ -1,88 +1,97 @@
-.circular--landscape {
-    display: inline-block;
-    position: relative;
-    width: 270px;
-    height: 270px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-left: 110px;
-    margin-top: 48px;
+#about {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
 }
 
-.circular--landscape img {
-    width: auto;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.left {
+    margin-right: 140px;
+    justify-content: center;
 }
 
-.alltext {
-    margin-left: 115px;
-    margin-top: 38px;
-}
-.about-me-title {
+.box-1 {
     display: flex;
     justify-content: space-beteen;
+    position: absolute;
+}
+.box-1 h1 {
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+    color: rgb(8, 8, 102);
+    margin-top: 30px;
+    margin-left: 70px;
 }
 .GrCircleInformation {
     width: 52px;
     height: 52px;
-    margin-top: 13px;
+    margin-top: 43px;
+    margin-left: 40px;
 }
-.about-me-title h1 {
-    text-align: center;
-    margin-bottom: 35px;
-    margin-left: 170px;
-    margin-right: 53px;
-    font-family: 'Concert One', cursive;
-    font-size: 60px;
-    color: rgb(8, 8, 102);
+hr.about-hr {
+    border-top: 2.2px dashed rgba(163, 163, 173, 0.993);
 }
-.details {
+.box-2 {
+    margin-top: 35px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(80, 95, 154);
 }
 
-#about {
-    margin-bottom: 130px;
+.box-2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(80, 95, 154);
 }
 
-.profileImg .mydetails {
-    padding: 5px;
-    text-align: left;
-    margin-left: 790px;
-    margin-top: 6px;
+.box-3 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
-.profileImg .mydetails .detail {
+.box-3 img {
+    height: 100%;
+}
+.right {
+    justify-content: center;
+    flex-direction: column;
+}
+.box-4 {
+    justify-content: space-around;
+}
+.right .my-details .detail {
     font-weight: 500;
+    padding: 5px;
     display: inline-block;
-    width: auto;
-    padding: 4px;
-    margin-right: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     color: rgb(115, 150, 208);
     font-weight: bold;
 }
 
-.profileImg .mydetails .detail-desc {
+.age-detail-desc {
     display: inline-block;
-    margin-left: 3px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+    margin-left: 160px;
 }
-hr.about-hr {
-    border-top: 1px dashed rgba(163, 163, 173, 0.993);
-    margin-left: 93px;
-    margin-top: -20px;
-    margin-bottom: 27px;
+.field-detail-desc {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 8px;
 }
-hr.details-hr {
+.interest-detail-desc {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 68px;
+}
+hr.my-details-hr {
     border-top: 0.2px dashed rgba(163, 163, 173, 0.993);
-    margin-top: -10px;
     width: 320px;
-    margin-left: 793px;
+    margin-top: 0px;
 }
