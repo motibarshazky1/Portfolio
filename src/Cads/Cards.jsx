@@ -36,7 +36,7 @@ class Cards extends React.Component {
                                 imgsrc={image3}
                                 title="Portfolio Website"
                                 description="My own personalized website"
-                                href="https://github.com/motibarshazky1/Polynomial-and-Monomial"
+                                href="https://github.com/motibarshazky1/Portfolio"
                                 platforms="React, HTML, CSS"
                             />
                         </div>

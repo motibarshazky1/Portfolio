@@ -11,7 +11,13 @@ const Card = (props) => {
                     {props.title}
                 </h4>
                 <p className="card-text text-secondary">{props.description}</p>
-                <a href={props.href} className="btn btn-outline-success" id="aGithub">
+                <a
+                    href={props.href}
+                    className="btn btn-outline-success"
+                    id="aGithub"
+                    target={'_blank'}
+                    rel="noopener noreferrer"
+                >
                     View on GitHub
                 </a>
                 <span className="used-platforms" style={{ marginLeft: '20px' }}>

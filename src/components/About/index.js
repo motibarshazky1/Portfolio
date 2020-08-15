@@ -42,25 +42,23 @@ class About extends React.Component {
                         <img className="card-imp-top" alt="Avatar" src="myimage.jpg"></img>
                     </div>
                     <div className="box-4">
-                        <p style={{ width: '300px' }}>
-                            <div className="my-details" style={{ wordSpacing: '300px' }}>
-                                <div className="detail">Age:</div>
-                                <div className="age-detail-desc">26</div>
-                            </div>
-                            <hr size="2" className="my-details-hr" />
+                        <div className="my-details" style={{ wordSpacing: '300px' }}>
+                            <div className="detail">Age:</div>
+                            <div className="age-detail-desc">26</div>
+                        </div>
+                        <hr size="2" className="my-details-hr" />
 
-                            <div className="my-details">
-                                <div className="detail">Field Of Study:</div>
-                                <div className="field-detail-desc">Computer Science</div>
-                            </div>
-                            <hr size="2" className="my-details-hr" />
+                        <div className="my-details">
+                            <div className="detail">Field Of Study:</div>
+                            <div className="field-detail-desc">Computer Science</div>
+                        </div>
+                        <hr size="2" className="my-details-hr" />
 
-                            <div className="my-details">
-                                <div className="detail">Interest:</div>
-                                <div className="interest-detail-desc">Web Development</div>
-                            </div>
-                            <hr size="2" className="my-details-hr" />
-                        </p>
+                        <div className="my-details">
+                            <div className="detail">Interest:</div>
+                            <div className="interest-detail-desc">Web Development</div>
+                        </div>
+                        <hr size="2" className="my-details-hr" />
                     </div>
                 </div>
             </div>

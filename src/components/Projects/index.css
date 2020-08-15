@@ -9,9 +9,9 @@
     margin-right: 25% !important;
 }
 #projects {
+    width: 97%;
     margin: auto;
     margin-bottom: 100px;
-    width: 97%;
 }
 .TiStarOutline {
     width: 55px;

@@ -34,7 +34,7 @@ class Header extends React.Component {
                         <li
                             className="list-inline-item"
                             onClick={() => {
-                                window.open('https://www.linkedin.com/in/moti-barshazky/');
+                                window.open('https://www.linkedin.com/in/moti-barshazky/', '_blank');
                             }}
                         >
                             <img className="linkedin-image" src={linkedinLogo} alt="" />
@@ -42,7 +42,7 @@ class Header extends React.Component {
                         <li
                             className="list-inline-item"
                             onClick={() => {
-                                window.open('https://github.com/motibarshazky1');
+                                window.open('https://github.com/motibarshazky1', '_blank');
                             }}
                         >
                             <img className="github-image" src={githubLogo} alt="" />
@@ -50,7 +50,7 @@ class Header extends React.Component {
                         <li
                             className="list-inline-item"
                             onClick={() => {
-                                window.open('https://www.facebook.com/Moti.Barshazky/');
+                                window.open('https://www.facebook.com/Moti.Barshazky/', '_blank');
                             }}
                         >
                             <img className="facebook-image" src={facebookLogo} alt="" />

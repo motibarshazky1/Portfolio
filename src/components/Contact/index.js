@@ -44,7 +44,13 @@ class Contact extends React.Component {
                 </div>
 
                 <div className="text-center" style={{ marginTop: '65px' }}>
-                    <a className="pdfLink" href="https://docdro.id/Nrd5yDC" download>
+                    <a
+                        className="pdfLink"
+                        href="https://docdro.id/Nrd5yDC"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
+                    >
                         <AiOutlineFilePdf className="pdfIcon" />
                         <button className="btn">View My CV</button>
                     </a>
