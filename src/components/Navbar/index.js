@@ -73,7 +73,7 @@ class Navbar extends React.Component {
                             className="nav-link"
                             spy={true}
                             smooth={true}
-                            offset={-73}
+                            offset={-68}
                             duration={500}
                         >
                             Contact
