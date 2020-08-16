@@ -21,7 +21,7 @@ class Contact extends React.Component {
                         <GiSmartphone className="smartphoneIcon" />
                         <span>
                             <h4 className="phone-details" style={{ display: 'inline' }}>
-                                052-788-9993
+                                +972-52-788-9993
                             </h4>
                         </span>
                         <br />
