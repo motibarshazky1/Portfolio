@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import Card from '../../Cads/Cards';
+import Card from '../../Cards/Cards';
 import { TiStarOutline } from 'react-icons/ti';
 
 class Projects extends React.Component {
@@ -15,7 +15,7 @@ class Projects extends React.Component {
                 </div>
                 <hr size="2" className="projects-hr" />
                 <div className="all-cards">
-                    <div className="row">
+                    <div className="cards-rows">
                         <Card />
                     </div>
                 </div>
