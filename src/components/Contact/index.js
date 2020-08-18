@@ -46,7 +46,7 @@ class Contact extends React.Component {
                 <div className="text-center" style={{ marginTop: '65px' }}>
                     <a
                         className="pdfLink"
-                        href="https://docdro.id/Nrd5yDC"
+                        href="https://docdro.id/Z7vPnjo"
                         target="_blank"
                         rel="noopener noreferrer"
                         download
