@@ -12,6 +12,7 @@ const Card = (props) => {
                 </h4>
                 <p className="card-text text-secondary">{props.description}</p>
                 <a
+                    style={{ float: 'left' }}
                     href={props.href}
                     className="btn btn-outline-success"
                     id="aGithub"
@@ -20,7 +21,7 @@ const Card = (props) => {
                 >
                     View on GitHub
                 </a>
-                <span className="used-platforms" style={{ marginLeft: '20px' }}>
+                <span className="used-platforms" style={{ float: 'right', marginTop: '18px' }}>
                     {props.platforms}
                 </span>
             </div>

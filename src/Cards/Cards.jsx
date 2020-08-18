@@ -12,8 +12,8 @@ class Cards extends React.Component {
         return (
             <div className="container-fluid d-flex justify-content-center">
                 <div>
-                    <div className="row">
-                        <div className="col-md-3" style={{ marginLeft: '70px' }}>
+                    <div className="row" style={{ justifyContent: 'center' }}>
+                        <div className="col-md-4">
                             <Card
                                 imgsrc={image1}
                                 title="Animals Adoption System"
@@ -22,7 +22,7 @@ class Cards extends React.Component {
                                 platforms="Java, Database"
                             />
                         </div>
-                        <div className="col-md-4" style={{ marginLeft: '70px' }}>
+                        <div className="col-md-4">
                             <Card
                                 imgsrc={image2}
                                 title="Youtube Browser"
@@ -31,7 +31,7 @@ class Cards extends React.Component {
                                 platforms="React, Axios"
                             />
                         </div>
-                        <div className="col-md-3" style={{ marginLeft: '-30px' }}>
+                        <div className="col-md-4">
                             <Card
                                 imgsrc={image3}
                                 title="Portfolio Website"
