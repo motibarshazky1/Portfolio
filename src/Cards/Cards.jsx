@@ -41,6 +41,17 @@ class Cards extends React.Component {
                             />
                         </div>
                     </div>
+                    <div className="row" style={{ justifyContent: 'center' }}>
+                        <div className="col-md-4">
+                            <Card
+                                imgsrc="https://p4.wallpaperbetter.com/wallpaper/338/635/808/background-popcorn-film-wallpaper-preview.jpg"
+                                title="Movie Database"
+                                description="A movie database using OMDb API"
+                                href="https://github.com/motibarshazky1/movie-database"
+                                platforms="React, HTML, CSS"
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         );
