@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                     className="navbar-brand"
                     activeClass="active"
                     onClick={this.onScrollTop}
-                    style={{ color: 'rgb(0, 220, 225)', marginLeft: '100px', fontSize: '30px' }}
+                    style={{ color: 'rgb(177, 229, 255)', marginLeft: '100px', fontSize: '30px' }}
                 >
                     MB
                 </Link>
