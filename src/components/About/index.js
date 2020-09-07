@@ -23,8 +23,8 @@ class About extends React.Component {
                                 Computer Science student at HIT.
                                 <br />
                                 <br />
-                                Using programming languages such as HTML, CSS, and JavaScript, I wish to create
-                                various features for client websites.
+                                Using programming languages such as React, HTML, CSS, and JavaScript, I wish to
+                                create various features for client websites.
                                 <br />
                                 <br />
                                 I am a hard worker, self-learner, team-player and highly motivated, eager to
