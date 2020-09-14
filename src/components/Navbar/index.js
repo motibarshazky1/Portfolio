@@ -26,7 +26,7 @@ class Navbar extends React.Component {
                 <ul className="navbar-nav ml-auto" style={{ marginRight: '120px' }}>
                     <li className="nav-item">
                         <Link
-                            style={{ fontSize: '17px' }}
+                            style={{ fontSize: '17px', color: 'rgb(217, 229, 255)' }}
                             to="about"
                             className="nav-link"
                             spy={true}
@@ -39,7 +39,7 @@ class Navbar extends React.Component {
                     </li>
                     <li className="nav-item">
                         <Link
-                            style={{ fontSize: '17px' }}
+                            style={{ fontSize: '17px', color: 'rgb(217, 229, 255)' }}
                             activeClass="active"
                             to="skills"
                             className="nav-link"
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
                     </li>
                     <li className="nav-item">
                         <Link
-                            style={{ fontSize: '17px' }}
+                            style={{ fontSize: '17px', color: 'rgb(217, 229, 255)' }}
                             activeClass="active"
                             to="projects"
                             className="nav-link"
@@ -67,7 +67,7 @@ class Navbar extends React.Component {
                     </li>
                     <li className="nav-item">
                         <Link
-                            style={{ fontSize: '17px' }}
+                            style={{ fontSize: '17px', color: 'rgb(217, 229, 255)' }}
                             activeClass="active"
                             to="contact"
                             className="nav-link"
