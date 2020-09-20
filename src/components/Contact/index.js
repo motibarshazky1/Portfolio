@@ -5,7 +5,6 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import { AiOutlineFilePdf } from 'react-icons/ai';
 import { GrMail } from 'react-icons/gr';
 import { GiSmartphone } from 'react-icons/gi';
-
 class Contact extends React.Component {
     render() {
         return (

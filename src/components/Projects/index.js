@@ -2,7 +2,6 @@ import React from 'react';
 import './index.css';
 import Card from '../../Cards/Cards';
 import { TiStarOutline } from 'react-icons/ti';
-import Fade from 'react-reveal/Fade';
 
 class Projects extends React.Component {
     render() {
@@ -17,9 +16,7 @@ class Projects extends React.Component {
                 <hr size="2" className="projects-hr" />
                 <div className="all-cards">
                     <div className="cards-rows">
-                        <Fade bottom>
-                            <Card />
-                        </Fade>
+                        <Card />
                     </div>
                 </div>
             </div>
