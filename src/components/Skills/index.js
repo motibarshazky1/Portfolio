@@ -9,6 +9,7 @@ import sqlIcon from '../../icons/sql.png';
 import htmlIcon from '../../icons/html.png';
 import cssIcon from '../../icons/css.png';
 import reactIcon from '../../icons/react.png';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 class Skills extends React.Component {
     state = {
@@ -39,10 +40,12 @@ class Skills extends React.Component {
         return (
             <div className="ui-container" id={this.props.id}>
                 <div className="skills-title text-center">
-                    <h1>
-                        SKILLS
-                        <FaRegKeyboard className="FaRegKeyboard" />
-                    </h1>
+                    <LightSpeed left>
+                        <h1>
+                            SKILLS
+                            <FaRegKeyboard className="FaRegKeyboard" />
+                        </h1>
+                    </LightSpeed>
                 </div>
                 <hr size="2" className="skills-hr" />
                 <div className="skill-list">{this.renderIcons()}</div>
