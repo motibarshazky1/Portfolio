@@ -5,19 +5,16 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import { AiOutlineFilePdf } from 'react-icons/ai';
 import { GrMail } from 'react-icons/gr';
 import { GiSmartphone } from 'react-icons/gi';
-import LightSpeed from 'react-reveal/LightSpeed';
 
 class Contact extends React.Component {
     render() {
         return (
             <div className="ui-container" id={this.props.id}>
                 <div className="contact-title">
-                    <LightSpeed left>
-                        <h1>
-                            CONTACT ME
-                            <GrContact className="GrContact" />
-                        </h1>
-                    </LightSpeed>
+                    <h1>
+                        CONTACT ME
+                        <GrContact className="GrContact" />
+                    </h1>
                 </div>
                 <hr size="2" className="contact-hr" />
                 <div>

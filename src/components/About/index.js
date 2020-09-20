@@ -1,8 +1,6 @@
 import React from 'react';
 import './index.css';
 import { GrCircleInformation } from 'react-icons/gr';
-import Zoom from 'react-reveal/Zoom';
-import LightSpeed from 'react-reveal/LightSpeed';
 
 class About extends React.Component {
     render() {
@@ -10,9 +8,7 @@ class About extends React.Component {
             <div className="ui-container" id={this.props.id}>
                 <div className="left">
                     <div className="box-1">
-                        <LightSpeed left>
-                            <h1>ABOUT ME</h1>
-                        </LightSpeed>
+                        <h1>ABOUT ME</h1>
                         <GrCircleInformation className="GrCircleInformation" />
                     </div>
                     <br />
@@ -22,24 +18,22 @@ class About extends React.Component {
                     <hr size="2" className="about-hr" />
                     <div className="box-2">
                         <h5>
-                            <Zoom>
-                                <p style={{ width: '500px' }}>
-                                    I'm 26 years old from Ramat Gan, Israel. Currently on my third year as a B.Sc
-                                    Computer Science student at HIT.
-                                    <br />
-                                    <br />
-                                    Using programming languages such as React, HTML, CSS, and JavaScript, I wish to
-                                    create various features for client websites.
-                                    <br />
-                                    <br />
-                                    I am a hard worker, self-learner, team-player and highly motivated, eager to
-                                    challenge myself while continuously learning and improving.
-                                    <br />
-                                    <br />
-                                    Scroll down to view my skills and projects, or to just contact me if you need.
-                                    Enjoy!
-                                </p>
-                            </Zoom>
+                            <p style={{ width: '500px' }}>
+                                I'm 26 years old from Ramat Gan, Israel. Currently on my third year as a B.Sc
+                                Computer Science student at HIT.
+                                <br />
+                                <br />
+                                Using programming languages such as React, HTML, CSS, and JavaScript, I wish to
+                                create various features for client websites.
+                                <br />
+                                <br />
+                                I am a hard worker, self-learner, team-player and highly motivated, eager to
+                                challenge myself while continuously learning and improving.
+                                <br />
+                                <br />
+                                Scroll down to view my skills and projects, or to just contact me if you need.
+                                Enjoy!
+                            </p>
                         </h5>
                     </div>
                 </div>
