@@ -51,6 +51,15 @@ class Cards extends React.Component {
                                 platforms="React, HTML, CSS"
                             />
                         </div>
+                        <div className="col-md-4">
+                            <Card
+                                imgsrc="https://images6.alphacoders.com/451/451028.jpg"
+                                title="Dice Game"
+                                description="A fun dice game using React"
+                                href="https://github.com/motibarshazky1/Dice-Game"
+                                platforms="React, HTML, CSS"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
