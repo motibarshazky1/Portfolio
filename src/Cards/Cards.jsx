@@ -3,11 +3,8 @@ import Card from './CardUI';
 import image1 from '../ProjectsPhotos/animals.jpg';
 import image2 from '../ProjectsPhotos/youtube.jpg';
 import image3 from '../ProjectsPhotos/portfolio.jpg';
+
 class Cards extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
     render() {
         return (
             <div className="container-fluid d-flex justify-content-center">
@@ -57,6 +54,15 @@ class Cards extends React.Component {
                                 title="Dice Game"
                                 description="A fun dice game using React"
                                 href="https://github.com/motibarshazky1/Dice-Game"
+                                platforms="React, HTML, CSS"
+                            />
+                        </div>
+                        <div className="col-md-4">
+                            <Card
+                                imgsrc="https://reactjsexample.com/content/images/2019/01/todo.jpg"
+                                title="To-Do List"
+                                description="A To-Do List app using React"
+                                href="https://github.com/motibarshazky1/To-Do-List"
                                 platforms="React, HTML, CSS"
                             />
                         </div>
