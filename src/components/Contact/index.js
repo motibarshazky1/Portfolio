@@ -26,7 +26,9 @@ class Contact extends React.Component {
                         </span>
                         <br />
                         <br />
-                        <FaMapMarkerAlt className="mapIcon" />
+                        <a href="http://www.google.com/maps?q=32.0660485,34.8292901">
+                            <FaMapMarkerAlt className="mapIcon" />
+                        </a>
                         <span>
                             <h4 className="location-details" style={{ display: 'inline' }}>
                                 Ramat-Gan, Israel
