@@ -26,7 +26,11 @@ class Contact extends React.Component {
                         </span>
                         <br />
                         <br />
-                        <a href="http://www.google.com/maps?q=32.0660485,34.8292901">
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.google.com/maps?q=32.0660485,34.8292901"
+                        >
                             <FaMapMarkerAlt className="mapIcon" />
                         </a>
                         <span>
