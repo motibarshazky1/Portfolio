@@ -3,6 +3,8 @@ import './index.css';
 import { FaRegKeyboard } from 'react-icons/fa';
 import cIcon from '../../icons/c.png';
 import cppIcon from '../../icons/c++.png';
+import nodeIcon from '../../icons/nodejs.png';
+import mongodbIcon from '../../icons/mongo.png';
 import jsIcon from '../../icons/javascript.png';
 import javaIcon from '../../icons/java.png';
 import sqlIcon from '../../icons/sql.png';
@@ -15,9 +17,11 @@ class Skills extends React.Component {
         icons: [
             [jsIcon, 'JavaScript'],
             [reactIcon, 'React'],
+            [nodeIcon, 'Node.js'],
             [javaIcon, 'Java'],
             [htmlIcon, 'HTML'],
             [cssIcon, 'CSS'],
+            [mongodbIcon, 'MongoDB'],
             [sqlIcon, 'SQL'],
             [cIcon, 'C'],
             [cppIcon, 'C++'],
