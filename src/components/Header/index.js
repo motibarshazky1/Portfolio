@@ -24,10 +24,10 @@ class Header extends React.Component {
                     <div className="title text-center">
                         <h1 className="name">MOTI BARSHAZKY</h1>
                         <hr size="2" className="header-hr" />
-                        <div className="subtitle">FRONT-END DEVELOPER</div>
+                        <div className="subtitle">FULL-STACK DEVELOPER</div>
                         <br />
                         <div className="frameworks-header">
-                            JavaScript, ReactJS, Redux, Java, HTML, CSS, C, C++, SQL
+                            JavaScript, ReactJS, Node.js, Redux, Java, HTML, CSS, MongoDB, SQL, C, C++
                         </div>
                     </div>
                     <ul className="list-unstyled list-inline text-center">
